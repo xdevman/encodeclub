@@ -15,13 +15,13 @@
    - **Returned Value**: `"Hello World"`
    - **Execution Result**: Successful
   
-   ![Call helloWorld Function](./IMG/call-helloWorld-function.jpg)
+   ![Call helloWorld Function](./IMG/3-call-helloWorld-function.jpg)
 
 2. **Change Message (`setText`)**
    - **Function Call**: `setText("New Hello World")`
    - **Caller Address**: [0xC74Fe60d3db0121b658154E65248A9c73D25089A](https://sepolia.etherscan.io/address/0xC74Fe60d3db0121b658154E65248A9c73D25089A)
    - **Transaction Hash**: [0x3baffaab44cec80d58baec3bad88946f84a71836fd02dd8d0eceb6a111fd29fd](https://sepolia.etherscan.io/tx/0x3baffaab44cec80d58baec3bad88946f84a71836fd02dd8d0eceb6a111fd29fd) 
-   - **Execution Outcome**: Successful
+   - **Execution Result**: Successful
 
    ![Call setText Function](./IMG/2-call-setText-function.jpg)
 
@@ -29,7 +29,7 @@
    - **Function Call**: `setText("Unauthorized Change")`
    - **Caller Address**: `0xB05a8a893B33B827D2be42D1Bd311C9D3da8D238`
    - **Transaction Hash**: [0xf53f752de844df5b281a02bf3bae3de32e54379ea06b743a22afb820c35651a4](https://sepolia.etherscan.io/tx/0xf53f752de844df5b281a02bf3bae3de32e54379ea06b743a22afb820c35651a4) 
-   - **Execution Outcome**: Failed
+   - **Execution Result**: Failed
    - **Revert Reason**: "Caller is not the owner"
 
    ![Call setText by Non-Owner](./IMG/4-call-setText-function-by-non-owner-address.jpg)
