@@ -15,7 +15,7 @@
    - **Returned Value**: `"Hello World"`
    - **Execution Result**: Successful
   
-   ![Call helloWorld Function](./IMG/3-call-helloWorld-function.jpg)
+   <!-- ![Call helloWorld Function](./IMG/3-call-helloWorld-function.jpg) -->
 
 2. **Change Message (`setText`)**
    - **Function Call**: `setText("New Hello World")`
