@@ -6,7 +6,7 @@
 - **Owner Address**: [0xC74Fe60d3db0121b658154E65248A9c73D25089A](https://sepolia.etherscan.io/address/0xC74Fe60d3db0121b658154E65248A9c73D25089A)
 - **Transaction Hash**: [0xdfb045462e8724994717f44e850e218159cd03eb6a9b01a6c0bc5dae3f87e4ef](https://sepolia.etherscan.io/tx/0xdfb045462e8724994717f44e850e218159cd03eb6a9b01a6c0bc5dae3f87e4ef)
 
-![Create Contract](./IMG/Create-contract.jpg)
+![Create Contract](./IMG/1-Create-contract.jpg)
 
 ## Function Interactions:
 
@@ -23,7 +23,7 @@
    - **Transaction Hash**: [0x3baffaab44cec80d58baec3bad88946f84a71836fd02dd8d0eceb6a111fd29fd](https://sepolia.etherscan.io/tx/0x3baffaab44cec80d58baec3bad88946f84a71836fd02dd8d0eceb6a111fd29fd) 
    - **Execution Outcome**: Successful
 
-   ![Call setText Function](./IMG/call-setText-function.jpg)
+   ![Call setText Function](./IMG/2-call-setText-function.jpg)
 
 3. **Attempt to Change Message by Non-Owner**
    - **Function Call**: `setText("Unauthorized Change")`
@@ -32,7 +32,7 @@
    - **Execution Outcome**: Failed
    - **Revert Reason**: "Caller is not the owner"
 
-   ![Call setText by Non-Owner](./IMG/call-setText-function-by-non-owner-address.jpg)
+   ![Call setText by Non-Owner](./IMG/4-call-setText-function-by-non-owner-address.jpg)
 
 4. **Transfer Ownership (`transferOwnership`)**
    - **Function Call**: `transferOwnership("0xNewOwnerAddress")`
@@ -42,7 +42,7 @@
    - **Execution Result**: Successful
  
 
-   ![Call transferOwnership](./IMG/call-transferOwnership.jpg)
+   ![Call transferOwnership](./IMG/5-call-transferOwnership.jpg)
 
 5. **Attempt to Change Message by Previous Owner**
    - **Function Call**: `setText("Old Owner Text")`
@@ -51,5 +51,5 @@
    - **Execution Result**: Failed
    - **Revert Reason**: "Caller is not the owner"
 
-   ![Call setText by Old Owner](./IMG/call-setText-function-by-old-owner.jpg)
+   ![Call setText by Old Owner](./IMG/6-call-setText-function-by-old-owner.jpg)
 
